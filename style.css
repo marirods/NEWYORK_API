@@ -19,6 +19,7 @@ ul, ol, li{
 
 .data{
     font-size: 15px;
+    width: 20vh;
     text-align: center;
 }
 
@@ -37,9 +38,6 @@ ul, ol, li{
 .perfil img{
 font-size: 24px;
 cursor: pointer;
-
-
-
 
 }
 
@@ -84,4 +82,10 @@ header{
 .pesquisa img, .pesquisa input{
     height: 100%;
     
+}
+
+.lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
