@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+
+.logo img{
+    height: 147px;
+    text-align: center;
+    display: flex;
+    
+    
+}
+
+.data{
+    font-size: 15px;
+    text-align: center;
+}
+
+.menu a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.perfil img{
+font-size: 24px;
+cursor: pointer;
+
+
+
+
+}
+
+main img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#caixa-texto{
+    padding: 6px 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header{
+    padding: 20px;
+    height: 20vh;
+    
+}
+
+.top{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+.baixo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pesquisa{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+.pesquisa img, .pesquisa input{
+    height: 100%;
+    
+}
