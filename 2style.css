@@ -1,0 +1,32 @@
+:root{
+    background-image: url('./img/NewYorkTimes..png');
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(background-image);
+   
+}
+
+#cor{
+    padding: 8px 16px;
+    font-size: 32px;
+    outline: none;
+}
+
+#buscargenero{
+    padding: 8px 16px;
+    font-size: 32px;
+    cursor: pointer;
+    
+}
+   

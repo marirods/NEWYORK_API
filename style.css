@@ -8,27 +8,56 @@ ul, ol, li{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
-.logo img{
-    height: 147px;
-    text-align: center;
-    display: flex;
-    
-    
+body {
+    overflow: scroll;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    /* align-items: center; */
+    justify-content: center ;  
+   
 }
 
 .data{
-    font-size: 15px;
-    width: 20vh;
+    font-size: 20px;
+    width: 15vw;
     text-align: center;
 }
 
+.data span{
+    font-family: "Inria Serif", serif;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+
+
+.menu {
+    display: flex;
+    gap: 25px;
+    justify-content: center ;
+   /* margin-top: 5px; */
+
+}
+
 .menu a{
-    margin: 0 10px;
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
+    font-family: "Inria Serif", serif;
+    font-style: normal;
+    font-weight: bold;
+  
+
 }
 
 .menu a:hover{
@@ -36,11 +65,63 @@ ul, ol, li{
 }
 
 .perfil img{
-font-size: 24px;
-cursor: pointer;
+position: absolute;
+right: 20px;
+top: 60px;
+width: 80px;
+height: 80px;
 
 }
 
+
+.livrosright{
+    width: 50%;
+    position: absolute;
+    height: 100%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bestsellers{
+    width: 40vw;
+    height: 90vh;
+}
+
+.infobestsellers{
+    position: relative;
+    top: -20%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    display: flex;
+    padding-top: 40px;
+ 
+}
+
+.infobestsellers h1{
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Inria Serif", serif;
+    font-size: 60px;
+    text-align: left;
+    padding-left: 45px;
+    padding-top: 50px;
+}
+
+.infobestsellers p{
+    font-size: 1.9vw;
+    width: 40vw;
+    color: #000000;
+    text-align: left;
+    font-family: "Inria Serif", serif;
+    font-style: normal;
+    padding-top: 50px;
+    padding-left: 45px;
+}
 main img{
     width: 100%;
     height: auto;
@@ -51,11 +132,19 @@ main img{
     padding: 6px 6px;
     font-size: 16px;
     cursor: pointer;
+    border: none;
+    border-radius: 12px;
 }
 
 header{
     padding: 20px;
-    height: 20vh;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
     
 }
 
@@ -88,4 +177,25 @@ header{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+
+.container{
+    padding-top: 25px;
+    padding-left: 45px;
+}
+
+#buscarlivros{
+    padding: 16px 32px;
+    font-size: 32px;
+    background-color: #000000;
+    color:  #fff;
+    font-family: "Inria Serif", serif;
+    font-style: normal;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+
+    
 }
