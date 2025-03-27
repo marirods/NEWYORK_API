@@ -18,10 +18,8 @@ body {
 }
 
 .logo{
-    display: block;
-    margin: 0 auto;
-    /* align-items: center; */
-    justify-content: center ;  
+    display: flex;
+  
    
 }
 
@@ -35,7 +33,6 @@ body {
     font-family: "Inria Serif", serif;
     font-style: normal;
     font-weight: bold;
-    
     
 }
 
@@ -57,6 +54,7 @@ body {
     font-family: "Inria Serif", serif;
     font-style: normal;
     font-weight: bold;
+   
   
 
 }
@@ -69,7 +67,7 @@ body {
 position: absolute;
 right: 20px;
 top: 60px;
-width: 80px;
+width: 70px;
 height: 80px;
 
 }
@@ -107,7 +105,7 @@ height: 80px;
     font-style: normal;
     font-weight: bold;
     font-family: "Inria Serif", serif;
-    font-size: 60px;
+    font-size: 70px;
     text-align: left;
     padding-left: 45px;
     padding-top: 50px;
@@ -127,7 +125,6 @@ main img{
     width: 100%;
     height: auto;
     display: block;
-    
 }
 
 #caixa-texto{
