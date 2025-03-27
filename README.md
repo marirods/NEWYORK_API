@@ -1,7 +1,6 @@
 # NEWYORK_API
 
-![image](![image](https://github.com/user-attachments/assets/a4ee8a2f-d1b7-4c0c-8b4a-44783e14ac68)
-)
+![](./NewYork_capa.png)
 
 ---
 
