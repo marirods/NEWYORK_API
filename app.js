@@ -14,7 +14,7 @@ botaoBuscar.addEventListener("click", buscarLivros)
 async function buscarLivros() {
     const busca = inputGenero.value.trim(); 
     if (!busca) {
-        alert("Digite um gênero ou nome de autor")
+        alert("Digite um autor:")
         return
     }
 
