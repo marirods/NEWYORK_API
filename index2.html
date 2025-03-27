@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="2style.css">
-    <script src="./2main.js2" defer></script>
+    <script src="./app.js" defer></script>
     <title>Procurar Livros</title>
 </head>
 <body>
-    <div class="background-image"></div>
-    <div class="container">
-        <input type="text" id="genero" placeholder="Digite um gênero:">
-        <button id="buscargenero">Buscar Livro</button> 
-    </div>
-
-    
+    <main>
+        <section>
+            <div class="background-image"></div>
+            <div class="container">
+                <input type="text" id="genero" placeholder="Digite um gênero ou autor:">
+                <button id="buscargenero">Buscar Livro</button> 
+            </div>
+        
+            <div class="livros-lista">
+                <ul id="lista">
+                </ul>
+            </div>
+        
+            <div class="livros-informacoes">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
