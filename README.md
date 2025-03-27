@@ -23,6 +23,8 @@ Site informativo para mostrar uma api funcional com o tema do jornal americano T
 
 ## Link das API's
 https://api.nytimes.com/svc/books/v3/reviews.json?author=Stephen+King&api-key=N9TFCBKOqj4CBryZWTbb0msxZqejFeuU
+
+
 https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=N9TFCBKOqj4CBryZWTbb0msxZqejFeuU
 
 
